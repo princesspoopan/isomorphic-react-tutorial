@@ -9,7 +9,7 @@ export default class IndexPage extends React.Component {
         <div className='kitten-selector'>
           {kittens.map((kitten) => (
             <Link key={kitten.name} to={`/kittens/${kitten.name}`}>
-              { kitten.name } >>
+              { kitten.name }
             </Link>
           ))}
         </div>

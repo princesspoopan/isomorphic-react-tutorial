@@ -1,8 +1,4 @@
-import {
-  Route,
-  BrowserRouter as Router,
-  Switch,
-} from 'react-router-dom'
+import { Route, BrowserRouter as Router, Switch } from 'react-router-dom'
 
 import Error404Page from './components/Error404Page.react'
 import IndexPage from './components/IndexPage.react'
@@ -25,3 +21,5 @@ export default class AppRoutes extends React.Component {
     )
   }
 }
+
+module.exports.AppRoutes = AppRoutes
